@@ -507,8 +507,9 @@
 .span-text-mid-1{
 	padding-right: 47%;
 }
-.span-text-mid-2{
-	padding-right: 20px;
+.span-text-mid-2 {
+    padding-left: 20px;
+    float: right;
 }
 .mid-6{
 	background-color: #263248;
