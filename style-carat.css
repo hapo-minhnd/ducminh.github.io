@@ -528,6 +528,9 @@
 .name-mid-2-tab{
 	display: none;
 }
+.banner-button-2-tab{
+	display: none;
+}
 @media screen and (max-width: 768px){
 .banner-button-1-tab{
 	display: block;
@@ -655,6 +658,7 @@
     text-align: center;
     clear: both;
     margin-top: 20px;
+    display: block;
 }
 .button:before {
     position: absolute;
