@@ -648,6 +648,12 @@
 	width: 100%;
     text-align: center;
     clear: both;
+    margin-top: -100px;
+}
+.banner-button-2-tab{
+	width: 100%;
+    text-align: center;
+    clear: both;
     margin-top: 20px;
 }
 .button:before {
