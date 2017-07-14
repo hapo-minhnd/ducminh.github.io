@@ -53,11 +53,11 @@
 p{
 	font-family: Lato;
 }
-.header{
-	background-color: #ffffff;
-	clear: both;
-	margin: 0 auto;
-	padding: 20px;
+.header {
+    background-color: #ffffff;
+    clear: both;
+    margin: 0 auto;
+    padding-top: 5px;
 }
 .header-tab{
 	display: none;
@@ -74,8 +74,6 @@ p{
  }
 .header-right-1{
 	float: left;
-	padding-bottom: 20px;
-	padding-right: 10px;
 }
 .header-right-2{
 	float: left;
@@ -325,8 +323,10 @@ p{
     z-index: 1;
     font-family: Roboto Slab;
 }
-.Language{
-	color: #ff4b94;
+.Language {
+    color: #ff4b94;
+    padding: 0px;
+    margin: 0px;
 }
 .overview{
 	text-align: center;
