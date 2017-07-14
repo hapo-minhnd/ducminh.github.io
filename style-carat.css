@@ -1,3 +1,58 @@
+@font-face {
+    font-family: Daydreamer;
+    src: url(Daydreamer.ttf);
+}
+@font-face {
+    font-family: Lato-LightItalic;
+    src: url(Lato-LightItalic.ttf);
+}
+@font-face {
+    font-family: Lato-Medium;
+    src: url(Lato-Medium.ttf);
+}
+@font-face {
+    font-family: Lato-MediumItalic;
+    src: url(Lato-MediumItalic.ttf);
+}
+@font-face {
+    font-family: Lato-Regular;
+    src: url(Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Lato-Semibold;
+    src: url(Lato-Semibold.ttf);
+}
+@font-face {
+    font-family: Lato-SemiboldItalic;
+    src: url(Lato-SemiboldItalic.ttf);
+}
+@font-face {
+    font-family: Lato-Thin;
+    src: url(Lato-Thin.ttf);
+}
+@font-face {
+    font-family: Lato-ThinItalic;
+    src: url(Lato-ThinItalic.ttf);
+}
+@font-face {
+    font-family: RobotoSlab-Bold;
+    src: url(RobotoSlab-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoSlab-Light;
+    src: url(RobotoSlab-Light.ttf);
+}
+@font-face {
+    font-family: RobotoSlab-Regular;
+    src: url(RobotoSlab-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoSlab-Thin;
+    src: url(RobotoSlab-Thin.ttf);
+}
+p{
+	font-family: Lato;
+}
 .header{
 	background-color: #ffffff;
 	clear: both;
@@ -41,6 +96,7 @@
 .img-language{
 	float: left;
 	margin-right: 5px;
+	margin-top: 3px;
 }
 .english{
 	font-size: 16px;
@@ -55,15 +111,17 @@
 	font-size: 26px;
 	color: #01b0f0;
 }
-.header-login{
-	float: left;
-	color: #01b0f0;
-	font-size: 16px;
+.header-login {
+    float: left;
+    color: #01b0f0;
+    font-size: 16px;
+    font-family: Myriad Pro;
 }
-.header-sign{
-	float: left;
-	color: #ff4b94;
-	font-size: 16px;
+.header-sign {
+    float: left;
+    color: #ff4b94;
+    font-size: 16px;
+    font-family: Myriad Pro;
 }
 .list-link{
 	display: inline-block;
@@ -107,9 +165,10 @@
 	color: #ffffff;
 	text-decoration: none;
 }
-.text-link-1:link{
-	text-decoration: none;
-	color: #18709c;
+.text-link-1:link {
+    text-decoration: none;
+    color: #18709c;
+    font-family: Roboto Slab;
 }
 .active {
 	background-color: #ff358b;
@@ -133,14 +192,15 @@
 	position: relative;
 	z-index: 1;
 }
-.make-color{
-	text-align: center;
+.make-color {
+    text-align: center;
     border-radius: 40px;
     padding: 25px 50px 25px 50px;
     background-color: #ff358b;
     color: #ffffff;
     font-size: 24px;
     z-index: 1;
+    font-family: Roboto Slab;
 }
 .button:after{
 	position: absolute;
@@ -263,18 +323,24 @@
     color: #ffffff;
     font-size: 24px;
     z-index: 1;
+    font-family: Roboto Slab;
+}
+.Language{
+	color: #ff4b94;
 }
 .overview{
 	text-align: center;
 	color: #ff358b;
 	font-size: 30px;
+	font-family: Roboto Slab;
 }
 .col-md-6{
 	margin-bottom: 100px;
 }
-.learning-japanese{
-	font-size: 60px;
-	color: #ff358b;
+.learning-japanese {
+    font-size: 60px;
+    color: #ff358b;
+    font-family: Daydreamer;
 }
 .with-active-idols{
 	color: #01b0f0;
@@ -346,6 +412,7 @@
     color: #ffffff;
     font-size: 24px;
     z-index: 1;
+    font-family: Roboto Slab;
 }
 .text-img-6{
 	padding: 10px 0px 20px 0px;
@@ -467,6 +534,7 @@
 .text-link-2:link{
 	text-decoration: none;
 	color: #18709c;
+	font-family: Lato;
 }
 .link-3 {
     float: left;
@@ -539,7 +607,8 @@
     color: #0c274d;
     margin: 0px;
     padding: 0px;
-    /* width: 50px; */
+    font-family: Lato;
+    font-size: 12px;
 }
 #dropdown-menu-tab{
 	width: 100%;
