@@ -534,17 +534,20 @@ span{
 	 box-shadow: 0px 3px 47.5px 2.5px rgba(0, 0, 0, 0.5);
 	transform: translate(0px, 40px);
 	}
-.text-p{
-	padding: 0px 15px 0px 15px;
+.text-p {
+    padding: 0px 30px 0px 30px;
     color: #7e8aa2;
     text-align: left;
-        font-style: oblique;
+    font-style: oblique;
+    line-height: 20px;
+    word-spacing: 10px;
 }
 .logo-h1{
 	margin: 0px;
 }
 .text-abc{
 	text-transform: uppercase;
+	    font-family: Lato;
 }
 .text-link-2{
 	font-size: 14px;
@@ -678,10 +681,17 @@ span{
 }
 .text-abcd{
 	font-style: italic;
+	font-family: lato;
 }
 .span-text-mid-1{
 	font-style: oblique;
 	font-size: 12px;
+}
+.banner-button-2 {
+    width: 100%;
+    text-align: center;
+    display: block;
+    clear: both;
 }
 @media screen and (max-width: 768px){
 .banner-button-1-tab{
@@ -748,7 +758,7 @@ span{
     padding: 5px;
     padding: 15px;
     height: 50px;
-    font-family:Times New Roman;
+    font-family: Roboto Slab;
     border: 0px;
         margin-top: 2px;
 }
@@ -893,7 +903,6 @@ span{
 }
 .list-button {
     list-style-type: none;
-    margin-top: 35px;
     margin-bottom: 100px;
 }
 .button-1 {
@@ -1075,8 +1084,12 @@ span{
 .header-tab{
 	display: block;
 }
+.banner-button-2{
+	display: none;
+}
 }
 @media screen and (max-width: 480px){
+
 .header{
 	display: none;
 }
@@ -1237,4 +1250,26 @@ span{
     list-style-type: none;
     margin-top: 10px;
     margin-bottom: 50px;
+}
+.img-8:hover{
+	 box-shadow: 0px 3px 47.5px 2.5px rgba(0, 0, 0, 0.5);
+	transform: translate(0px, 40px);
+	display: none;
+	}
+.button-2:nth-child(3) {
+    margin-top: -2px;
+    left: 50.5%;
+    width: 9px;
+    height: 9px;
+    background-color: #01b0f0;
+}
+}
+@media screen and (max-width: 375px){
+.logo {
+    float: left;
+    width: 18%;
+}
+.img-1{
+	width: 100%;
+}
 }
