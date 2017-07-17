@@ -652,6 +652,25 @@ span{
     clear: both;
 }
 @media screen and (max-width: 768px){
+.button-2 {
+    position: absolute;
+    margin-left: 20px;
+    left: 41.5%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    content: '';
+    background-color: #ff358b;
+    z-index: 2;
+}
+.button-2:nth-child(2) {
+    margin-top: -1px;
+    left: 45.8%;
+    width: 7px;
+    height: 7px;
+    background-color: #01b0f0;
+}
 .logo {
     float: left;
     padding-left: 5px;
