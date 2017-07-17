@@ -1272,4 +1272,10 @@ span{
 .img-1{
 	width: 100%;
 }
+.overview {
+    text-align: center;
+    color: #ff358b;
+    font-size: 24px;
+    font-family: Roboto Slab;
+}
 }
